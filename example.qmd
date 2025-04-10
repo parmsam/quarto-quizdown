@@ -1,0 +1,69 @@
+---
+title: "Quarto Quizdown Example"
+filters: 
+    - quizdown
+---
+
+A Quarto shortcode for writing short quizzes with a markdown-like syntax. It is based on the quizdown-js library and the hugo-quiz extension originally developed by [bonartm](https://github.com/bonartm): 
+
+- [https://github.com/bonartm/quizdown-js/](https://github.com/bonartm/quizdown-js/)
+- [https://github.com/bonartm/hugo-quiz/](https://github.com/bonartm/hugo-quiz/ )
+
+::: {.callout-note}
+Note that it's a filter and not a shortcode as it was in hugo-quiz b/c [Quarto doesn't seem to export content](https://quarto.org/docs/extensions/shortcodes.html) between openning and closing shortcode tags [like Hugo does](https://gohugo.io/content-management/shortcodes/). Maybe I'll figure out a way to do that in the future, but for now, this is a filter that lets you write quizdown instances within quizdown code blocks indicated using `{quizdown}` or `quizdown`.
+:::
+
+Try out the original live code editor for quizdown: [https://bonartm.github.io/quizdown-live-editor/](https://bonartm.github.io/quizdown-live-editor/)
+
+
+```{quizdown}
+---
+primary_color: orange
+secondary_color: lightgray
+text_color: black
+shuffle_questions: false
+shuffle_answers: true
+---
+
+# Python Lists
+
+What is the value of `x[2]`?
+
+> Python lists are mutable!
+
+~~~python
+x = [2, 3, 4]
+x[2] = 4
+print(x[2])
+~~~
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+## The sound of dog
+
+What do dogs sound like?
+
+> Some hint
+
+- [ ] yes
+- [ ] no
+- [ ] `self.sound = "meow"`
+- [x] wuff
+
+## Put the [days](https://en.wikipedia.org/wiki/Day) in order!
+
+> Monday is the *first* day of the week.
+
+1. Monday
+2. Tuesday
+3. Wednesday
+4. Friday
+5. Saturday  
+```
+
+Here's the README from the Github Repo, in case you missed it:
+
+{{< include README.md >}}
