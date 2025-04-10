@@ -1,6 +1,6 @@
 # Quizdown Extension For Quarto
 
-This is a Quarto extension for creating short interactive quizzes in Quarto documents. This project ports the jasonwebb/revealjs-subtitles plugin over to Quarto. This project ports the hugo-quiz extension, originally developed by [bonartm](https://github.com/bonartm), over to Quarto. It is based on the quizdown-js library.
+This is a Quarto extension for creating short interactive quizzes in Quarto documents. This project ports the hugo-quiz extension, originally developed by [bonartm](https://github.com/bonartm), over to Quarto. It is based on the quizdown-js library.
 
 - [https://github.com/bonartm/quizdown-js/](https://github.com/bonartm/quizdown-js/)
 - [https://github.com/bonartm/hugo-quiz/](https://github.com/bonartm/hugo-quiz/)
