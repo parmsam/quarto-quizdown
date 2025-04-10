@@ -10,7 +10,7 @@ A Quarto shortcode for writing short quizzes with a markdown-like syntax. It is 
 - [https://github.com/bonartm/hugo-quiz/](https://github.com/bonartm/hugo-quiz/ )
 
 ::: {.callout-note}
-Note that it's a filter and not a shortcode as it was in hugo-quiz b/c [Quarto doesn't seem to export content](https://quarto.org/docs/extensions/shortcodes.html) between openning and closing shortcode tags [like Hugo does](https://gohugo.io/content-management/shortcodes/). Maybe I'll figure out a way to do that in the future, but for now, this is a filter that lets you write quizdown instances within quizdown code blocks indicated using `{quizdown}` or `quizdown`.
+Note that it's a filter and not a shortcode as it was in hugo-quiz b/c [Quarto doesn't seem to export content](https://quarto.org/docs/extensions/shortcodes.html) between opening and closing shortcode tags [like Hugo does](https://gohugo.io/content-management/shortcodes/). Maybe I'll figure out a way to do that in the future, but for now, this is a filter that lets you write quizdown instances within quizdown code blocks indicated using `{quizdown}` or `quizdown`.
 :::
 
 Try out the original live code editor for quizdown: [https://bonartm.github.io/quizdown-live-editor/](https://bonartm.github.io/quizdown-live-editor/)
