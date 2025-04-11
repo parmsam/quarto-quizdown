@@ -9,7 +9,7 @@ This is a Quarto extension for creating short interactive quizzes in Quarto docu
 
 
 ```bash
-quarto add parmsam/quizdown
+quarto add parmsam/quarto-quizdown
 ```
 
 This will install the extension under the `_extensions` subdirectory.
