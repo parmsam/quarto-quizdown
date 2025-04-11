@@ -16,7 +16,7 @@ Note that it's a filter and not a shortcode as it was in hugo-quiz b/c [Quarto d
 Try out the original live code editor for quizdown: [https://bonartm.github.io/quizdown-live-editor/](https://bonartm.github.io/quizdown-live-editor/)
 
 
-```{quizdown}
+```quizdown
 ---
 primary_color: orange
 secondary_color: lightgray
