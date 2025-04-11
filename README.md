@@ -24,7 +24,7 @@ filters:
     - quizdown
 ```
 
-Then, you can create a quiz using the `quizdown` or  `{quizdown}` codeblock (although I recommend just just using the `quizdown` codeblock as below):
+Then, you can create a quiz using the `quizdown` or  `{quizdown}` codeblock (although I recommend just using the `quizdown` codeblock as below):
 
 ```markdown
 ```quizdown
