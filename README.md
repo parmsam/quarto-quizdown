@@ -30,15 +30,15 @@ Then, you can create a quiz using the `quizdown` or  `{quizdown}` codeblock (alt
 ```quizdown
 ## Question 1
 What is the capital of France?
-- Paris
-- London
-- Berlin
+- [x] Paris
+- [ ] London
+- [ ] Berlin
 
 ## Question 2
 What is the capital of Germany?
-- Paris
-- London
-- Berlin
+- [ ] Paris
+- [ ] London
+- [x] Berlin
 ```
 
 See the [quizdown documentation](https://github.com/bonartm/quizdown-js) for more information on how to use the quizdown library. The online editor is available at [https://bonartm.github.io/quizdown-js/](https://bonartm.github.io/quizdown-js/).
