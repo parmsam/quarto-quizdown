@@ -24,10 +24,10 @@ filters:
     - quizdown
 ```
 
-Then, you can create a quiz using the `{quizdown}` or `quizdown` codeblock:
+Then, you can create a quiz using the `quizdown` or  `{quizdown}` codeblock (although I recommend just just using quizdown as below):
 
 ```markdown
-```{quizdown}
+```quizdown
 ## Question 1
 What is the capital of France?
 - Paris
